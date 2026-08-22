@@ -1,11 +1,11 @@
 {
-  "release_state": "PUBLISHED",
-  "version": "v1.0.0",
+  "release_state": "LOCAL_PREPARED",
+  "version": "v1.0.1",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_HAJIMARI_NO_ISHI_KOREAN_LOCALIZATION_RELEASE",
-  "external_publication": true,
+  "external_publication": false,
   "publication": {
-    "tag": "v1.0.0",
-    "release_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_HAJIMARI_NO_ISHI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.0"
+    "tag": "v1.0.1",
+    "release_url": null
   },
   "source": {
     "game_code": "B3CJ",
@@ -14,33 +14,36 @@
   },
   "patch": {
     "path": "Summon_Night_Craft_Sword_Monogatari_Hajimari_no_Ishi_KO.xdelta",
-    "size": 3294629,
-    "sha256": "ee5794cf6b4d5aeb6c7e055d3287e144d20b839418ccc267a374002988b281bb",
+    "size": 5295620,
+    "sha256": "edd93620b0a5b3f7b62b3cbf1ffa736a885a3d34efb3319a6ccac708b4b43c38",
     "application_header_disabled": true
   },
   "target": {
     "size": 33554432,
-    "sha256": "26bed95bc2b9eb640f573384b4b84417f400b251324af4570f3a80ab688a80b7",
+    "sha256": "6ead73b40a6b8dbfb873646ef749ce557487227a443e17bb3c1588c49ef09060",
     "roundtrip_match": true,
     "approved_runtime_target": true
   },
   "coverage": {
     "primary_text_rows": 43101,
-    "hidden_psi_text_rows": 1633,
-    "total_patched_text_rows": 44734,
+    "hidden_psi_text_rows": 1769,
+    "inline_fixed_width_psi_rows": 136,
+    "total_patched_text_rows": 44870,
     "hidden_psi_unpatched_rows": 0,
     "image_decisions": 149,
-    "localized_images": 146,
-    "images_kept_original": 3,
+    "localized_images": 143,
+    "images_kept_original": 6,
     "hangul_syllables": 11172,
     "keyboard_jamo": 51
   },
   "runtime_qa": {
     "boot_and_title": true,
-    "early_dialogue_screens": 12,
+    "early_dialogue_screens": 33,
     "dynamic_name_rich": true,
     "partner_information_cards": 4,
-    "korean_name_input": "임라이언"
+    "korean_name_input": "임라이언",
+    "status_menu_location": "디클 마을",
+    "japanese_location_residue_in_ewram": 0
   },
   "limitations": {
     "full_scenario_automated_playthrough": false,

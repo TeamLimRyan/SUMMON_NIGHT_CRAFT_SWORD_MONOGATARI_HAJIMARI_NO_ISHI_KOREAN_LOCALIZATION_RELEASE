@@ -1,31 +1,32 @@
 # 서몬나이트 크래프트 소드 이야기 ~시작의 돌~ 한국어 패치
 
-> **v1.0.0 공개 릴리스**
+> **v1.0.1 공개 릴리스**
 
 게임보이 어드밴스 일본판 `Summon Night - Craft Sword Monogatari - Hajimari no Ishi`용 비공식 한국어 현지화 패치 배포 저장소입니다.
 
 - 게임 코드: `B3CJ`
 - 지원 원본 크기: `33,554,432 bytes`
 - 지원 원본 SHA-256: `39bc4cf448106aa4b8cdde235632ffb57432c4b1919c8843510b70b3787fad2d`
-- 버전·태그: `v1.0.0`
+- 버전·태그: `v1.0.1`
 - 저장소: `TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_HAJIMARI_NO_ISHI_KOREAN_LOCALIZATION_RELEASE`
 
 ## 포함 범위
 
-- 정본 텍스트 43,101행과 별도 PSI 문자열 1,633행, 총 44,734행 빌드 반영
-- 이미지 대상 149건 중 한국어 이미지 146건 반영, 사용자 승인에 따라 3건 원본 유지
+- 정본 텍스트 43,101행과 별도 PSI 문자열 1,769행, 총 44,870행 빌드 반영
+- 고정 길이 위치명 필드 136건을 추가 발굴해 메뉴 하단 일본어와 후행 깨짐 제거
+- 이미지 대상 149건 중 한국어 이미지 143건 반영, 사용자 결정에 따라 6건 원본 유지
 - 현대 한글 완성형 11,172자와 한글 자모 51자 글리프
 - 조합식 한글 이름 입력과 한글 자모 키보드
 - 용어집, 제어 코드, 포인터, 압축 문자열, 팔레트와 이미지 재삽입 정적 검증
-- mGBA에서 부팅, 초반 대화 12컷, 파트너 정보 4종, `임라이언` 입력·확정 검증
+- mGBA에서 부팅, 초반 대화, 파트너 정보 4종, `임라이언` 입력·확정과 상태 메뉴 검증
 
 ## 다운로드
 
-최신 안정판은 [GitHub Releases의 v1.0.0](https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_HAJIMARI_NO_ISHI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.0)에서 받으십시오.
+최신 안정판은 [GitHub Releases의 v1.0.1](https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_HAJIMARI_NO_ISHI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.1)에서 받으십시오.
 
 - 패치: `Summon_Night_Craft_Sword_Monogatari_Hajimari_no_Ishi_KO.xdelta`
-- 패치 크기: `3,294,629 bytes`
-- 패치 SHA-256: `ee5794cf6b4d5aeb6c7e055d3287e144d20b839418ccc267a374002988b281bb`
+- 패치 크기: `5,295,620 bytes`
+- 패치 SHA-256: `edd93620b0a5b3f7b62b3cbf1ffa736a885a3d34efb3319a6ccac708b4b43c38`
 
 이 저장소와 GitHub Release에는 원본 ROM, 완성 ROM, BIOS, 세이브 데이터를 포함하지 않습니다.
 
@@ -50,7 +51,7 @@ xdelta3 -d -s "Summon Night - Craft Sword Monogatari - Hajimari no Ishi (Japan).
 ## 결과 무결성
 
 - 결과 크기: `33,554,432 bytes`
-- 결과 SHA-256: `26bed95bc2b9eb640f573384b4b84417f400b251324af4570f3a80ab688a80b7`
+- 결과 SHA-256: `6ead73b40a6b8dbfb873646ef749ce557487227a443e17bb3c1588c49ef09060`
 
 배포 xdelta를 지원 원본에 역적용한 결과가 최종 검증 ROM과 바이트 단위로 일치합니다. 전체 체크섬은 [SHA256SUMS.txt](SHA256SUMS.txt)에 있습니다.
 
