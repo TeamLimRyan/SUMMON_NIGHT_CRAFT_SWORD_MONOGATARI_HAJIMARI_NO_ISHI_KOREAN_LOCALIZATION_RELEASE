@@ -1,0 +1,7 @@
+ee5794cf6b4d5aeb6c7e055d3287e144d20b839418ccc267a374002988b281bb  Summon_Night_Craft_Sword_Monogatari_Hajimari_no_Ishi_KO.xdelta
+
+# Supported source ROM (not distributed)
+39bc4cf448106aa4b8cdde235632ffb57432c4b1919c8843510b70b3787fad2d  Summon Night - Craft Sword Monogatari - Hajimari no Ishi (Japan).gba
+
+# Expected patched ROM (not distributed)
+26bed95bc2b9eb640f573384b4b84417f400b251324af4570f3a80ab688a80b7  summon_night_craft_sword_hajimari_no_ishi_ko.gba
