@@ -1,8 +1,12 @@
 {
-  "release_state": "LOCAL_PREPARED",
+  "release_state": "PUBLISHED",
   "version": "v1.0.0",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_HAJIMARI_NO_ISHI_KOREAN_LOCALIZATION_RELEASE",
-  "external_publication": false,
+  "external_publication": true,
+  "publication": {
+    "tag": "v1.0.0",
+    "release_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_HAJIMARI_NO_ISHI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.0"
+  },
   "source": {
     "game_code": "B3CJ",
     "size": 33554432,
