@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "version": "v1.0.2",
+  "source_size": 33554432,
+  "source_sha256": "39bc4cf448106aa4b8cdde235632ffb57432c4b1919c8843510b70b3787fad2d",
+  "target_size": 33554432,
+  "target_sha256": "8d7efa27855099ab9e47cd5bbe8786aba009ef04e7eaabdf99d796823555012f",
+  "patch": "Summon_Night_Craft_Sword_Monogatari_Hajimari_no_Ishi_KO.xdelta",
+  "patch_size": 5336845,
+  "patch_sha256": "26b8da47a3d3e45f2838115140023fca588f44c90c78bde48fbf06bd1cbc7c01",
+  "roundtrip_sha256": "8d7efa27855099ab9e47cd5bbe8786aba009ef04e7eaabdf99d796823555012f",
+  "roundtrip_match": true,
+  "application_header_disabled": true,
+  "xdelta_executable_sha256": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0",
+  "xdelta_version": "Xdelta version 3.2.0, Copyright (C) Joshua MacDonald"
+}

@@ -1,11 +1,11 @@
 {
-  "release_state": "PUBLISHED",
-  "version": "v1.0.1",
+  "release_state": "LOCAL_PREPARED",
+  "version": "v1.0.2",
   "repository": "TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_HAJIMARI_NO_ISHI_KOREAN_LOCALIZATION_RELEASE",
-  "external_publication": true,
+  "external_publication": false,
   "publication": {
-    "tag": "v1.0.1",
-    "release_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_HAJIMARI_NO_ISHI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.1"
+    "tag": "v1.0.2",
+    "release_url": "https://github.com/TeamLimRyan/SUMMON_NIGHT_CRAFT_SWORD_MONOGATARI_HAJIMARI_NO_ISHI_KOREAN_LOCALIZATION_RELEASE/releases/tag/v1.0.2"
   },
   "source": {
     "game_code": "B3CJ",
@@ -14,15 +14,16 @@
   },
   "patch": {
     "path": "Summon_Night_Craft_Sword_Monogatari_Hajimari_no_Ishi_KO.xdelta",
-    "size": 5295620,
-    "sha256": "edd93620b0a5b3f7b62b3cbf1ffa736a885a3d34efb3319a6ccac708b4b43c38",
+    "size": 5336845,
+    "sha256": "26b8da47a3d3e45f2838115140023fca588f44c90c78bde48fbf06bd1cbc7c01",
     "application_header_disabled": true
   },
   "target": {
     "size": 33554432,
-    "sha256": "6ead73b40a6b8dbfb873646ef749ce557487227a443e17bb3c1588c49ef09060",
+    "sha256": "8d7efa27855099ab9e47cd5bbe8786aba009ef04e7eaabdf99d796823555012f",
     "roundtrip_match": true,
-    "approved_runtime_target": true
+    "approved_runtime_target": true,
+    "owner_load_screen_confirmed": true
   },
   "coverage": {
     "primary_text_rows": 43101,
@@ -34,21 +35,44 @@
     "localized_images": 143,
     "images_kept_original": 6,
     "hangul_syllables": 11172,
-    "keyboard_jamo": 51
+    "keyboard_jamo": 51,
+    "text_repair_20260926": {
+      "candidates_reviewed": 1279,
+      "fixed_fields_repaired": 525,
+      "psi_fields_repaired": 660,
+      "mixed_prefix_fields_verified": 67,
+      "binary_false_positives_preserved": 26,
+      "already_localized": 1,
+      "authoritative_rows_accounted": 44870,
+      "item_substitutions_verified": 256
+    }
   },
   "runtime_qa": {
-    "boot_and_title": true,
-    "early_dialogue_screens": 33,
-    "dynamic_name_rich": true,
-    "partner_information_cards": 4,
-    "korean_name_input": "임라이언",
-    "status_menu_location": "디클 마을",
-    "japanese_location_residue_in_ewram": 0
+    "emulator": "mGBA 0.10.5",
+    "fresh_boot_with_existing_save": true,
+    "save_load_screen_korean_location_owner_confirmed": true,
+    "screens": [
+      "save selection",
+      "load confirmation",
+      "main menu",
+      "inventory F-aid",
+      "valuable item dynamic name",
+      "encyclopedia description"
+    ],
+    "baseline_warning_events": 133,
+    "candidate_warning_events": 133,
+    "additional_warning_events": 0,
+    "legacy_location_names_verified": 26
   },
   "limitations": {
     "full_scenario_automated_playthrough": false,
     "save_and_cold_boot_load_tested": false,
     "real_hardware_tested": false,
-    "owner_release_approval": true
-  }
+    "owner_release_approval": true,
+    "all_glyphs_visually_reviewed": false,
+    "original_reported_freeze_scene_reproduced": false,
+    "existing_save_cold_boot_load_tested": true,
+    "exact_trade_npc_scene_replayed": false
+  },
+  "repository_visibility": "PRIVATE"
 }
